@@ -1,6 +1,5 @@
 import speech_recognition as sr
 
-
 r = sr.Recognizer()
 mic= sr.Microphone()
 word=["turn on light","turn off light","Turn on fan","turn of fan"]
