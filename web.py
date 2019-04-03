@@ -14,7 +14,6 @@ background_label.place(x=0, y=0, relwidth=1, relheight=1)
 C.pack()
 top.mainloop
 
-
 def login_1():
     top = Tk()
     top.geometry("1500x1000")
