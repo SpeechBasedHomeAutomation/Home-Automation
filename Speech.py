@@ -2,7 +2,7 @@ import speech_recognition as sr
 
 r = sr.Recognizer()
 mic= sr.Microphone()
-word=["turn on light","turn off light","Turn on fan","turn of fan"]
+word=["turn on light","turn off light","Turn on fan","turn off fan"]
 
 sr.Microphone.list_microphone_names()
 print(sr.Microphone.list_microphone_names())
