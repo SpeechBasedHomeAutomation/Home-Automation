@@ -3,19 +3,13 @@ import numpy as np
 from scipy.io.wavfile import read
 import sklearn.mixture as GMM
 from featureextraction import extract_features
-# from speakerfeatures import extract_features
 import warnings
 warnings.filterwarnings("ignore")
 
 # path to training data
-#source   = "development_set/"
 source = "trainingData/"
 
 # path where training speakers will be saved
-
-# dest = "speaker_models/"
-# train_file = "development_set_enroll.txt"
-
 dest = "Speakers_models/"
 train_file = "trainingDataPath.txt"
 file_paths = open(train_file, 'r')
